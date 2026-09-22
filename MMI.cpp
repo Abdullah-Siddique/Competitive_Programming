@@ -1,5 +1,15 @@
 /*
 ax + by = gcd(a, b) = 1
+
+modular multiplicative inverse of a modulo m is x iff
+
+ax % m = 1
+(ax - 1) % m = 0
+ax - 1 = km
+ax + m(-k) = 1
+ax + by = 1 [y = -k]
+Bézout's Identity, ax + my = gcd(a, m)
+
 */
 
 #include<bits/stdc++.h>
